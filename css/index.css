@@ -381,8 +381,12 @@ b{
 
 
 /*第二屏幕*/
-.page2 img,.page2 div h2,.page2 div span{
+.page2,.page2 img,.page2 div h2,.page2 div span{
     opacity: 0;
+}
+#page2{
+    animation: fadeIn 1s 1 both;
+    -webkit-animation: fadeIn 1s 1 both;
 }
 .page2{
     position: relative;
@@ -576,8 +580,12 @@ b{
 
 
 /*第三屏幕*/
-.page3 .trans,.page3 .page4Con1 span,.page3 .lineXY,.page3 .lineX span,.page3 .lineY span,.page3 .lineY15 div,.page3 .direction div{
+.page3,.page3 .trans,.page3 .page4Con1 span,.page3 .lineXY,.page3 .lineX span,.page3 .lineY span,.page3 .lineY15 div,.page3 .direction div{
     opacity: 0;
+}
+#page3{
+    animation: fadeIn 1s 1 both;
+    -webkit-animation: fadeIn 1s 1 both;
 }
 .page3{
     position: relative;
@@ -932,8 +940,12 @@ b{
 }
 
 /*第四屏幕*/
-.page4 .line{
+.page4,.page4 .line{
     opacity: 0;
+}
+#page4{
+    animation: fadeIn 1s 1 both;
+    -webkit-animation: fadeIn 1s 1 both;
 }
 .page4{
     position: relative;
@@ -1168,9 +1180,12 @@ b{
 }
 
 /*第五屏幕*/
-.page5 div img{
-
+.page5,.page5 div img{
     opacity: 0;
+}
+#page5{
+    animation: fadeIn 1s 1 both;
+    -webkit-animation: fadeIn 1s 1 both;
 }
 .page5{
     position: relative;
